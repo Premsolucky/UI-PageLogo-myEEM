@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />  
+    <title>My EEM</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<!--Font  Awsome --->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<!-- Font Awsome  ENDs-->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ 
+ 
+
+
+<!-- Bootsrap DATEPICKER -------------------------------------------------------------------------------------------------->
+ <!--  jQuery -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<!-- Isolated Version of Bootstrap, not needed if your site already uses Bootstrap -->
+<link rel="stylesheet" href="https://formden.com/static/cdn/bootstrap-iso.css" />
+
+<!-- Bootstrap Date-Picker Plugin -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+<!-- Bootsrap DATEPICKER -------------------------------------------------------------------------------------------------->
+ 
+
+<style>
+  html,body{
+      width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+
+  }
+   @media only screen and (max-width: 767px) {
+   
+  .comments{
+    height: normal;
+  }
+  }
+ /* STYLING HEADER  AND BREADCRUMBS*/
+ 
+@media(max-width: 991px){
+    .lastone > textarea{
+        margin-right:15px;
+        margin-left:1rem;
+}
+}
+@media(max-width: 767px){
+    .lastone > textarea{
+        margin-right:.5rem;
+
+}
+}
+
+
+@media(max-width: 991px){
+    .mytextarea{
+        font-size:x-small;
+}
+}
+@media(max-width: 767px){
+    .mytextarea{
+        font-size:8px;
+
+}
+}
+
+
+
+
+
+
+      .breadcrumb { 
+  list-style: none; 
+  overflow: hidden; 
+  font: 18px Sans-Serif;
+}
+.heading{
+    margin-top: 4%;
+    color:#0071e1;
+}
+.topBar{
+    display: flex;
+    justify-content: space-between;
+}
+.MainBody{
+    width:77%;
+    margin-left:1%;
+    margin-right:1%;
+}
+
+.fbig{
+    font-size: larger;
+}
+.iflx{
+    display:inline-flex;
+}
+
+.collapse{
+    align-items:initial !important;
+}
+
+.breadcrumb li { 
+  float: left; 
+}
+
+.breadcrumb li a {
+  color: #004268;
+  text-decoration: none; 
+  display: block;
+  float: left;
+}
+
+#list-4 ::before {
+    content: '|';
+    color: #004268;
+    padding-right: 10px;
+}
+#list-2{
+padding-left: 2%;
+}
+#list-3{
+padding-left: 45%;
+}
+#list-4{
+padding-left: 2%;
+}
+#breadcrumb li:first-child a {
+  padding-left: 10px;
+}
+
+
+@media (max-width :991px){
+    .fsm{
+        font-size:x-large;
+    }
+}
+@media(max-width :767px){
+    .fsm{
+        font-size:small;
+    }
+}
+
+@media(min-width: 768px){
+        .navbar-toggler{
+            display: none;
+        }
+    }
+    @media(max-width: 768px){
+        .icon{
+            float: right;
+            display: block;
+        }
+        .mynav.responsive {position: relative;}
+        .mynav.responsive .icon {
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+        .mynav.responsive a {
+            float: none;
+            display: block;
+            text-align: left;
+        }
+    }
+    .brd{
+        margin:0;
+        padding-left:0;
+        align-self: center;
+    }
+    .brd a{
+        padding-bottom: 0 !important;
+    }
+    .npnm{
+        padding:0 !important ; 
+        margin:0 !important;
+    }
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    .ml-10{
+        margin-left: 10%;
+    }   
+    .jccenter{
+        justify-content: center;
+    }
+    .mr-2{
+        margin-right:-1% !important;
+    }
+  
+ 
+
+
+    .navb{
+        /* height:50px; */
+        margin-top:1rem;
+    }
+    .flexhead{
+        display: flex;
+    }
+ 
+    .er > a{
+        color:white;
+        /* padding:0% !important; */
+        text-decoration: none;
+    }
+    @media(max-width: 991px){
+        .er > a{
+        color:white;
+        padding:0% !important;
+        text-decoration: none;
+    }
+    }
+    .er {
+        align-self: center;
+        padding-top:1rem;
+        padding-bottom:1rem;
+        }
+    .nl{
+        padding:1rem!important;
+    }
+    .nl:hover{
+        background-color: #0071e1 ;
+
+    }
+    .er:hover{
+        background-color: #0071e1 ;
+
+    }
+    .nl li:hover{
+        color:white;
+    }
+    .pd-16{
+        padding-top:16px
+    }
+    .nabmargins{
+        padding-left: 3%;
+    padding-right: 5%;
+    }
+    .topalign{
+        align-self:baseline;
+    }
+    .darkblue{
+        background-color: #004268;
+    }
+    li {
+      float: left;
+    }
+    .space-around{
+        justify-content: space-around;
+    }
+    
+    .lia .liaa {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      text-decoration: none;
+    }
+    .t-22{
+        font-size:xx-large;
+        color: #0071e1;
+
+    }
+
+    .wdth{
+        width: inherit;
+    }
+    @media(max-width: 762px){
+        .cust-flex{
+            flex-direction: row;
+            display: inline;
+        }
+        .flexhead{
+            display:block
+        }
+        .firstli{
+            padding-left:0;
+        }
+        .navbar-brand{
+            width:100%;
+        }
+        li a{
+            color:blue;
+        }
+    }
+    .ibtn{
+        height:102%;
+        width:100%
+    }
+    .w-full{
+        width:100%;
+    }
+
+
+</style>
+
+
+
+
+ </head>
+  <body>
+    {{{body}}}
+   
+  {{!-- <!-- Button to Open the Modal -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" id="ResizingButtons">
+    <i class="fa fa-info" ></i>
+  </button>
+</div>
+
+  <!-- The Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+       <!-- Modal Header -->
+        <div class="modal-header">
+          <p>This is Where My Information is</p>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+      </div>
+    </div>
+  </div> --}}
+  
+   <script>
+    $(document).ready(function(){
+        var date_input=$('input[name="date"]'); //our date input has the name "date"
+        var container=$('.bootstrap-iso form').length>0 ? $('.bootstrap-iso form').parent() : "body";
+        date_input.datepicker({
+            format: 'dd M yyyy',
+            container: container,
+            todayHighlight: true,
+            autoclose: true,
+        })
+    })
+</script>
+  </body>
+</html>
